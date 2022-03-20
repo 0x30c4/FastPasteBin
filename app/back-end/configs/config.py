@@ -34,8 +34,8 @@ FastPasteBin is a free and opensourse Paste Bin which allowes users
 terms_of_service = "https://pastebin.0x30c4.dev/terms"
 
 license_info = {
-        "name": "Apache 2.0",
-        "url": "https://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "MIT License",
+        "url": "https://raw.githubusercontent.com/0x30c4/FastPasteBin/main/LICENSE",
     }
 contact = {
         "name": "Sanaf",
