@@ -1,3 +1,4 @@
 app/back-end/data/bin/*
 app/back-end/data/logs/*
 app/back-end/__pycache__/
+app/back-end/.venv/
