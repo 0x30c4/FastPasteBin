@@ -1,4 +1,9 @@
 app/back-end/data/bin/*
 app/back-end/data/logs/*
-app/back-end/__pycache__/
-app/back-end/.venv/
+app/back-end/__pycache__
+app/back-end/alembic/__pycache__
+app/back-end/db/__pycache__
+app/back-end/configs/__pycache__
+app/back-end/tests/__pycache__
+app/back-end/tests/test.db
+app/back-end/.venv

@@ -24,12 +24,7 @@ quicly share it with others to use or view it.
 It also has an API end-point.
 '''
 
-help_text = f'''
-FastPasteBin is a free and opensourse Paste Bin which allowes users
- to paste code/message/error output/encrypted message from the terminal.
- To use it run [ echo Hello world | curl -F 'file=@-' {APP_URL} ].
- To learn more please visit {APP_URL} with a browser.
-'''.replace("\n", "")
+help_text = f"TL;DR: echo Hello world | curl -F 'file=@-' {APP_URL}"
 
 terms_of_service = "https://pastebin.0x30c4.dev/terms"
 

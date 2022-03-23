@@ -1,5 +1,6 @@
 from db.models import Bindata
 from main import app
+# from configs.config import description
 
 from fastapi.testclient import TestClient
 from sqlalchemy import create_engine
@@ -28,7 +29,15 @@ APP_URL_UPLOAD = os.environ["APP_URL_UPLOAD"]
 
 Bindata.metadata.create_all(bind=engine)
 
+
 client = TestClient(app)
+
+
+# def test_index_redirect():
+#     response = client.get("/")
+
+#     assert response.url == 1
+#     # assert response.status_code == 301
 
 
 def test_create_paste_json_response():
