@@ -15,7 +15,7 @@ from fastapi import (
                      Request,
 )
 from starlette.responses import RedirectResponse
-from models import Bindata as ModelBinData
+from db.models import Bindata as ModelBinData
 from configs.config import (
                             title,
                             db_url,

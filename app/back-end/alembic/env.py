@@ -5,7 +5,7 @@ from sqlalchemy import pool
 
 from alembic import context
 
-import models
+from db import models
 from os import path, environ
 import sys
 
